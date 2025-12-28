@@ -1,0 +1,15 @@
+folio,side,section,currier,image_type
+# Template folio metadata
+# Columns:
+#   folio: Canonical folio name (e.g., f001r, f001v)
+#   side: r (recto) or v (verso)
+#   section: Section name (botanical, astronomical, biological, pharmaceutical, recipes)
+#   currier: Currier language (A or B)
+#   image_type: Type of illustration (plant, zodiac, nymph, etc.)
+#
+# Example entries (update with actual data):
+# f001,r,botanical,A,plant
+# f068,v,astronomical,B,zodiac
+# f001r,r,botanical,A,plant
+# f001v,v,botanical,A,plant
+
