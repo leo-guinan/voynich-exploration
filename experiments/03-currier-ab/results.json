@@ -1,0 +1,41 @@
+{
+  "currier_a": {
+    "num_pages": 111,
+    "total_tokens": 10221,
+    "unique_tokens": 3500,
+    "word_length": {
+      "mean": 3.7078,
+      "std": 1.4202,
+      "median": 4.0
+    }
+  },
+  "currier_b": {
+    "num_pages": 35,
+    "total_tokens": 13182,
+    "unique_tokens": 3982,
+    "word_length": {
+      "mean": 3.9256,
+      "std": 1.5283,
+      "median": 4.0
+    }
+  },
+  "chi_square": {
+    "statistic": 4738.346,
+    "p_value": 0.0
+  },
+  "word_length_ttest": {
+    "t_statistic": -11.1512,
+    "p_value": 8.351371594926655e-29
+  },
+  "jensen_shannon_divergence": {
+    "character_level": 0.122194,
+    "token_level": 0.554408
+  },
+  "null_model": {
+    "mean_jsd": 0.028561,
+    "std_jsd": 0.001519,
+    "actual_jsd": 0.122194,
+    "percentile": 100.0,
+    "z_score": 61.64
+  }
+}
