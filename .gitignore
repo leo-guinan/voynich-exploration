@@ -1,0 +1,8 @@
+data/raw/yale/images/
+data/raw/yale/pdf/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+venv/
+.env

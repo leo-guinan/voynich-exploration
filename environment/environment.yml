@@ -1,0 +1,18 @@
+name: voynich
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pandas
+  - numpy
+  - pillow
+  - jupyter
+  - matplotlib
+  - seaborn
+  - scipy
+  - pip:
+    - pdfimages  # Note: pdfimages is typically installed via system package manager
+    - imageio
+
